@@ -23,7 +23,10 @@ class Metasploit3 < Msf::Post
 			the mscorsvw.exe binary.
 			},
 			'License'       => MSF_LICENSE,
-			'Author'        => [ 'bannedit' ],
+			'Author'        => [
+				'bannedit',	# module
+				'xenomuta'	# discovery (EDB-ID-16940, OSDB-) 
+			],
 			'Platform'      => [ 'win' ],
 			'SessionTypes'  => [ 'meterpreter' ],
 			'References'    =>
