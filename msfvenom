@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # -*- coding: binary -*-
-#
-# $Id: msfvenom 14909 2012-03-10 06:50:03Z rapid7 $
+# rapid7
+# $Id: msfvenom 14909 2012-03-10 06:50:03Z$
 # $Revision: 14909 $
 #
 msfbase = __FILE__
